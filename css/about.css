@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+}
+
+body {
+    /* scroll-behavior: smooth; */
+    background-color: #E3FFCC;
+}
+
+.main {
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    transition: 0.1s linear;
+    background-color: #E3FFCC;
+}
+
+.left {
+    width: 60%;
+    padding-left: 3%;
+}
+
+.left h1 {
+    padding: 25px;
+    font-size: 50px;
+    color: #fbd1b0;
+}
+
+.right {
+    display: flex;
+    padding-right: 5%;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+    gap: 15%;
+}
+
+.right a {
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    transition: 0.1s;
+}
+
+.right a:hover {
+    border-bottom: 3px solid black;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 3px solid black;
+}
+
+.login {
+    background-color: #03B700;
+    font-weight: bold;
+    padding: 20px 20px !important;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px rgb(102, 102, 102);
+}
+
+.space {
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    padding: 3%;
+    text-align: center;
+}
+
+.content h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.yt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    height: 100vh;
+}
+
+.mem {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mem img {
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+}
+
+.aside {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: 2px solid #8a8a8a;
+    padding: 4%;
+    line-height: 0.8cm;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons img {
+    width: 4%;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.footer h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #fbd1b0;
+}

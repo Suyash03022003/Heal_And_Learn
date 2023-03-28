@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+}
+
+body {
+    /* scroll-behavior: smooth; */
+    background-color: #E3FFCC;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    background-image: url('/images/pexels-idriss-meliani-2982449.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    transition: 0.1s linear;
+    background-color: transparent;
+}
+
+.left {
+    width: 60%;
+    padding-left: 3%;
+}
+
+.left h1 {
+    padding: 25px;
+    font-size: 50px;
+    color: #fbd1b0;
+}
+
+.right {
+    display: flex;
+    padding-right: 5%;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+    gap: 15%;
+}
+
+.right a {
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    transition: 0.1s;
+}
+
+.right a:hover {
+    border-bottom: 3px solid black;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 3px solid black;
+}
+
+.hero {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 7%;
+    text-align: center;
+    font-size: 50px;
+    color: #d9fa23;
+}
+
+.login {
+    background-color: #03B700;
+    font-weight: bold;
+    padding: 20px 20px !important;
+}
+
+.whatweare {
+    padding: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.whatweare h1 {
+    font-size: 45px;
+}
+
+.whatweare p {
+    margin-top: 20px;
+    line-height: 0.9cm;
+}
+
+.whatwedo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 4%;
+}
+
+.whatwedo .row1 {
+    width: 50%;
+}
+
+.whatwedo .row2 {
+    width: 50%;
+}
+
+.row1 img {
+    width: 100%;
+    height: auto;
+}
+
+.row2 h1 {
+    font-size: 45px;
+}
+
+.row2 p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 0.8cm;
+    text-align: justify;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 7%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.end p {
+    line-height: 0.8cm;
+    font-size: 20px;
+}
+
+.log {
+    background-color: #03B700;
+    padding: 15px 20px;
+    border: 0;
+    font-size: 20px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px rgb(102, 102, 102);
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: 2px solid #8a8a8a;
+    padding: 4%;
+    line-height: 0.8cm;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons img {
+    width: 4%;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.footer h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #fbd1b0;
+}
