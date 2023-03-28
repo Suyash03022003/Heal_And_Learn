@@ -15,7 +15,16 @@
 
 <body>
   <div class="main">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="#" class="ac">About</a>
+      <a href="login.html">Log In</a>
+    </div>
     <div class="nav shadow" id="nav">
+      <div class="drawer">
+        <img src="images/drawer.png" id="drawer" alt="Drawer" onclick="openNav()">
+      </div>
       <div class="left">
         <h1>Heal and Learn Academy</h1>
       </div>
@@ -69,6 +78,7 @@
       <p>&copy; Heal and Learn Academy</p>
     </div>
   </div>
+  <script src="js/about.js"></script>
 </body>
 
 </html>

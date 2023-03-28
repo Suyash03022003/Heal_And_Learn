@@ -15,7 +15,16 @@
 
 <body onscroll="scroll()">
   <div class="main">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#" class="ac">Home</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Log In</a>
+    </div>
     <div class="nav" id="nav">
+      <div class="drawer">
+        <img src="images/drawer_light.png" id="drawer" alt="Drawer" onclick="openNav()">
+      </div>
       <div class="left">
         <h1>Heal and Learn Academy</h1>
       </div>
@@ -50,7 +59,7 @@
           their learning experience to their specific needs and goals.</p>
       </div>
     </div>
-    <div class="whatwedo">
+    <div class="whatwedo second">
       <div class="row2">
         <h1>How we do?</h1>
         <p>We are a 3P team including Physiotherapists, Psychologists, Physio-occupational therapists who works on a

@@ -15,7 +15,16 @@
 
 <body>
   <div class="main">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#" class="ac">Log In</a>
+    </div>
     <div class="nav shadow" id="nav">
+      <div class="drawer">
+        <img src="images/drawer.png" id="drawer" alt="Drawer" onclick="openNav()">
+      </div>
       <div class="left">
         <h1>Heal and Learn Academy</h1>
       </div>
@@ -27,15 +36,17 @@
     </div>
     <div class="space"></div>
     <div class="login">
-        <div class="log">
-            <h1>Log In</h1>
-            <div class="log_content">
-                <p>Enter Username: <input type="text" placeholder="Enter Name" id="name"></p>
-                <p>Enter Password: <input type="text" placeholder="Enter Password" id="pass"></p>
-            </div>
-            <a href="#" class="a_forgot"><p class="forgot">Forgot Password</p></a>
-            <a href="" id="page" class="button"><button onclick="login()">Log In</button></a>
+      <div class="log">
+        <h1>Log In</h1>
+        <div class="log_content">
+          <p>Enter Username: <input type="text" placeholder="Enter Name" id="name"></p>
+          <p>Enter Password: <input type="text" placeholder="Enter Password" id="pass"></p>
         </div>
+        <a href="#" class="a_forgot">
+          <p class="forgot">Forgot Password</p>
+        </a>
+        <a href="" id="page" class="button"><button onclick="login()">Log In</button></a>
+      </div>
     </div>
   </div>
   <script src="js/login.js"></script>
