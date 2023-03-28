@@ -322,9 +322,9 @@ p {
         font-size: 30px;
     }
 
-    .sidenav {
+    /* .sidenav {
         width: 50%;
-    }
+    } */
 
     .sidenav a {
         font-size: 20px;
@@ -375,9 +375,9 @@ p {
         font-size: 15px;
     }
 
-    .sidenav {
+    /* .sidenav {
         width: 70%;
-    }
+    } */
 
     .sidenav a {
         font-size: 15px;
