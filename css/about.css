@@ -172,8 +172,7 @@ p {
     background-color: #E3FFCC;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-left: 3%;
-    text-align: left;
+    text-align: center;
     padding-top: 60px;
 }
 
