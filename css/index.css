@@ -235,7 +235,8 @@ p {
     background-color: #E3FFCC;
     overflow-x: hidden;
     transition: 0.5s;
-    text-align: center;
+    padding-left: 3%;
+    text-align: left;
     padding-top: 60px;
 }
 
